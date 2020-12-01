@@ -162,7 +162,22 @@
                       }
                   </script>
                   <!-- end of script -->
-               
+                <button onclick="myFunction()">Copy text</button>
+                  <script>
+                  function myFunction() {
+                    /* Get the text field */
+                    var copyText = document.getElementById('speechToText');
+                  
+                    /* Select the text field */
+                    copyText.select();
+                    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+                  
+                    /* Copy the text inside the text field */
+                    document.execCommand("copy");
+                  
+                    alert("Copied the text: " + copyText.value);
+                        }
+                </script>
                 </body>
                 <label class="block" for="note">Type/Paste text here</label>
               </div>
