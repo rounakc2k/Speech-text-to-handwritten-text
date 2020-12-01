@@ -156,12 +156,27 @@
                           recognition.onresult = function(event) {
                               // console.log(event);
                               document.getElementById('speechToText').value = event.results[0][0].transcript;
+                              function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById('speechToText');
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
                           }
                           recognition.start();
               
                       }
                   </script>
                   <!-- end of script -->
+                <button onclick="myFunction()">Copy text</button>
               </body>
                 <label class="block" for="note">Type/Paste text here</label>
               </div>
