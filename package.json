@@ -1,7 +1,7 @@
 {
   "name": "text-to-handwriting",
   "version": "1.0.0-rc.1",
-  "description": "Hey everyone! text-to-handwriting is a tool that lets you generate image that looks like handwriting from text.",
+  "description": "Speech to text-to-handwriting is a tool that lets you generate image that looks like handwriting from text.",
   "main": "js/app.js",
   "directories": {
     "lib": "lib"
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saurabhdaware/text-to-handwriting.git"
+    "url": "git+https://github.com/rounakc2k/Speech-text-to-handwritten-text.git"
   },
   "keywords": [],
-  "author": "Saurabh Daware <saurabhdaware99@gmail.com> (https://saurabhdaware.in/)",
+  "author": "Rounak Chandrasekhar <rounak.c2k@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saurabhdaware/text-to-handwriting/issues"
+    "url": "https://github.com/rounakc2k/Speech-text-to-handwritten-text/issues"
   },
-  "homepage": "https://github.com/saurabhdaware/text-to-handwriting#readme",
+  "homepage": "https://github.com/rounakc2k/Speech-text-to-handwritten-text#readme",
   "devDependencies": {
     "cypress": "^4.4.1",
     "eslint": "^7.0.0",
