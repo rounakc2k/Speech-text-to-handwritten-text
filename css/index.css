@@ -34,12 +34,17 @@ body.dark {
 
 @font-face {
   font-family: 'Bengali_Font';
-  src: url(../fonts/BenSenHandwriting.ttf);
+  src: url(../fonts/SutonnyMJ Regular.ttf);
 }
 
 @font-face {
   font-family: 'Quirlycues_Font';
   src: url(../fonts/Quirlycues.ttf);
+}
+
+@font-face {
+  font-family: 'Times_New_Roman_Font';
+  src: url(../fonts/Times New Roman 400.ttf);
 }
 
 /* Default CSS Changes */
