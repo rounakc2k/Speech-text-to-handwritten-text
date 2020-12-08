@@ -33,11 +33,6 @@ body.dark {
 }
 
 @font-face {
-  font-family: 'Bengali_Font';
-  src: url(../fonts/SutonnyMJ Regular.ttf);
-}
-
-@font-face {
   font-family: 'Quirlycues_Font';
   src: url(../fonts/Quirlycues.ttf);
 }
