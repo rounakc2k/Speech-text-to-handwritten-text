@@ -145,7 +145,7 @@ document.querySelectorAll('.switch-toggle input').forEach((toggleInput) => {
  */
 
 fetch(
-  'https://api.github.com/repos/saurabhdaware/text-to-handwriting/contributors'
+  'https://api.github.com/repos/rounakc2k/Speech-text-to-handwritten-text/contributors'
 )
   .then((res) => res.json())
   .then((res) => {
